@@ -1,0 +1,40 @@
+.deposite-main {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.deposite-box {
+    border: 2px solid #ffffff78;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-top: 10rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+    font-size: 1.4rem;
+    gap: 1.5rem;
+    background-color: #ffffff14;
+}
+.deposite-box img{
+    width: 50%;
+}
+.deposite-box input{
+    padding: 0.4rem;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+}
+.deposite-box button{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    margin: auto;
+    border: 2px solid #ffffff63;
+    background-color: #0f4650;
+    color: white;
+}

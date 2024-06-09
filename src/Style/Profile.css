@@ -1,0 +1,29 @@
+.profile-main {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile-box{
+    border: 2px solid #ffffff78;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-top: 15rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    font-size: 1.4rem;
+    gap: 1rem;
+    background-color: #ffffff14;
+}
+.profile-box button{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 1rem;
+    border: 2px solid #ffffff63;
+    background-color: #0f4650;
+    color: white;
+}
