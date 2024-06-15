@@ -34,7 +34,7 @@ const Deposite = () => {
         }
         else{
             try {
-                const {data}= await axios.post("http://localhost:4000/sentdeposite",{
+                const {data}= await axios.post("https://rangbazi-backend.onrender.com/sentdeposite",{
                         email:UserEmail,
                         name:UserName,
                         userid:User_id,

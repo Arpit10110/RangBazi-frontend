@@ -43,3 +43,8 @@
     color: white;
     margin-top: 2rem;
 }
+@media only screen and (width<=600px){
+    .register-box{
+        width: 85%;
+    }
+}

@@ -15,7 +15,7 @@ const Login = () => {
     const login = async (e)=>{
             e.preventDefault()
             try {
-              const {data}= await axios.post(`http://localhost:4000/login`,{
+              const {data}= await axios.post(`https://rangbazi-backend.onrender.com/login`,{
                 email:email,
                 password:password
               })

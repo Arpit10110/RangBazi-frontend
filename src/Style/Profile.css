@@ -27,3 +27,8 @@
     background-color: #0f4650;
     color: white;
 }
+@media only screen and (width<=600px){
+    .profile-box{
+        width: 85%;
+    }
+}

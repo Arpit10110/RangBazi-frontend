@@ -1,0 +1,136 @@
+.mine-main {
+    display: flex;
+    height: 90vh;
+    justify-content: space-around;
+    align-items: center;
+} 
+.mine-box {
+    width: 30%;
+     background-color: #ffffff0f;
+    padding: 2.5rem;
+    border-radius: 10px;
+    gap: 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+.Row {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    position: relative;
+}
+.C{
+    width: 16%;
+    cursor: pointer;
+    height: 10vh;
+    background-color: #ffffff0f;
+    border-radius: 10px;
+    border: 1px solid #ffffff4d;
+}
+.M{
+    width: 16%;
+    cursor: pointer;
+    height: 10vh;
+    background-color: #ffffff0f;
+    border-radius: 10px;
+    border: 1px solid #ffffff4d;
+}
+.D {
+    width: 16%;
+    cursor: pointer;
+    background-size: contain;
+    height: 10vh;
+    background-image: url(/src/assets/dimond.png);
+    border-radius: 10px;
+    border: 1px solid #ffffff4d;
+    background-repeat: no-repeat;
+    background-color: #289c57;
+    background-position: center;
+}
+.B{
+    width: 16%;
+    cursor: pointer;
+    height: 10vh;
+    background-image: url(../../assets/bomb.png);
+    border-radius: 10px;
+    border: 1px solid #ffffff4d;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #9c2832;
+    background-position: center;
+}
+.bet-box {
+    padding: 2rem;
+    border: 2px solid #ffffff57;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: #ffffffc2;
+    width: 20%;
+    font-size: 1.3rem;
+    background-color: #ffffff0f;
+}
+.bet-box input{
+    padding: 0.5rem;
+    width: 100%;
+    font-size: 1.5rem;
+    border-radius: 7px;
+    border: none;
+    margin-top: 0.7rem;
+}
+.bet-box h2{
+    width: 100%;
+    display: flex;
+    gap: 8px;
+}
+.bet-box button{
+    padding: 0.7rem;
+    background-color: #01E700;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.7rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.bet-box select{
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-top: 0.7rem;
+}
+
+@media only screen and (width<=600px){
+    .mine-main {
+        display: flex;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        padding-top: 8rem;
+        padding-bottom: 10rem;
+        gap: 5rem;
+    }
+    .bet-box {
+        width: 80%;
+    }
+    .mine-box {
+        width: 85%;
+    }
+    .C{
+        height: 9vh;
+    }
+    .M{
+        height: 9vh;
+    }
+    .D{
+        height: 9vh;
+    }
+    .B{
+        height: 9vh;
+    }
+}

@@ -12,7 +12,7 @@
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
-    "@mui/icons-material": "^5.15.17",
+    "@mui/icons-material": "^5.15.19",
     "@mui/material": "^5.15.17",
     "@reduxjs/toolkit": "^2.2.5",
     "axios": "^1.7.2",
@@ -24,6 +24,7 @@
     "react-router-dom": "^6.23.0",
     "react-scripts": "4.0.0",
     "react-toastify": "^10.0.5",
+    "use-sound": "^4.0.1",
     "uuid": "^9.0.1"
   },
   "devDependencies": {

@@ -18,7 +18,7 @@ const Register = () => {
     const register = async (e)=>{
             e.preventDefault()
           try {
-            const {data}= await axios.post(`http://localhost:4000/register`,{
+            const {data}= await axios.post(`https://rangbazi-backend.onrender.com/register`,{
               name:name,
               phone:phone,
               email:email,

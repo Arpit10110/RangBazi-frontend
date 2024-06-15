@@ -11,14 +11,13 @@ nav{
 .logo{
     font-size: 4rem;
 }
-.wallet{
-    color: #ffb600;
-    border: 1px solid;
+.wallet {
+    color: #ffffff;
     font-size: 2rem;
     border-radius: 4px;
     cursor: pointer;
-    padding: 0.2rem;
-    background-color: #151515;
+    padding: 0.5rem;
+    background-color: rgb(14, 32, 46);
     position: absolute;
     left: 50%;
 }
@@ -31,4 +30,42 @@ nav{
 }
 .nav-Link a{
     color: white;
+}
+.mobile-links{
+    display: none;
+}
+
+@media only screen and (width<=600px){
+    .nav-Link{
+        display: none;
+    }
+    .wallet{
+        left: 50%;
+    }
+    .mobile-links{
+        display: flex;
+    }
+    .mobile-links button{
+        padding: 0.2rem;
+        background-color: transparent;
+        border: navajowhite;
+    }
+    .mobile-links button .MenuIcon{
+        color: white;
+        font-size: 4rem;
+    }
+    .all-links {
+        display: flex;
+        padding: 3rem;
+        flex-direction: column;
+        gap: 5rem;
+        font-size: 2.5rem;
+        align-items: center;
+        height: 100vh;
+        justify-content: center;
+        background-color: rgb(26, 45, 57);
+    }
+    .all-links a{
+        color: white;
+    }
 }
